@@ -1,20 +1,59 @@
-# Intelligent systems course (UL FRI)
+# Intelligent Systems
 
-This repository is a part of Intelligent systems course at the University of Ljubljana, Faculty for computer and information science. Please contact [tadej.skvorc@fri.uni-lj.si](mailto:tadej.skvorc@fri.uni-lj.si), [ales.zagar@fri.uni-lj.si](mailto:ales.zagar@fri.uni-lj.si) or [boshko.koloski@ijs.si](mailto:boshko.koloski@ijs.si) for any comments.
+Coursework for the Intelligent Systems course at the Faculty of Computer and Information Science, University of Ljubljana, 2024/25:
 
-The solutions to the problems will be made available at the end of each week after we have completed the current topic.
+- 10 laboratory exercises covering foundational and advanced topics in artificial intelligence.
+- 2 seminar projects focusing on optimization and natural language processing (NLP).
 
-For this course, install Python version 3.9.20. After Python is installed, run `pip install -r requirements.txt`
+## List of Completed Laboratory Exercises:
 
-### Install Python with miniconda
-We suggest using Anaconda to install Python and all requirements. 
+---
 
-1. Install miniconda3: https://docs.anaconda.com/miniconda/miniconda-install/
-2. Run: `conda create -n intelsys python=3.9.20`
-3. Run: `pip install -r requirements.txt`
+- **Lab 1**: Data Wrangling
+- **Lab 2**: Genetic Algorithms
+- **Lab 3**: Visualization
+- **Lab 4**: Classification
+- **Lab 5**: Supervised learning, cross-validation, hyperparameter tuning
+- **Lab 6**: Attribute Evaluation (Feature selection)
+- **Lab 7**: Natural language processing (NLP)
+- **Lab 8**: Clustering, Ensemble Learning
+- **Lab 9**: Deep Learning
+- **Lab 10**: Reinforcement Learning
 
-### How to run Jupyter notebooks
-Find in-detail instructions on https://github.com/azagsam/NLP-Course-Tutorials-Digital-Linguistics/blob/master/additional_materials/tutorials/basics.md
+## Seminar Projects:
 
-### Using Jupyter notebooks in VS Code
-Follow the instructions: https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+### Seminar 1: Optimizing Conference Paper Assignment Using Genetic Algorithms
+
+**Objective**:\
+The goal of this seminar was to design a system to optimize the assignment of conference papers to reviewers using genetic algorithms. The solution had to maximize overall satisfaction by aligning reviewer preferences while meeting specific constraints.
+
+**Key Tasks**:
+
+- **Representation**: Develop a data structure and representation for reviewer-paper assignments, considering preferences, friendship constraints, and authorship restrictions.
+- **Crossover and Mutation**: Customize genetic algorithm operations to ensure constraint satisfaction and generate valid solutions.
+- **Diversity and Complexity**: Introduce mechanisms to explore diverse and complex solutions, penalizing constraint violations.
+- **Evaluation**: Conduct experiments to compare the performance of different configurations and provide a detailed analysis of results.
+
+---
+
+### Seminar 2: Text Classification for Emotion Detection
+
+**Objective**:\
+The aim of this seminar was to train and evaluate an NLP classification model capable of detecting six emotions (sadness, joy, love, anger, fear, surprise) in text.
+
+**Key Tasks**:
+
+- **Data Preparation and Exploration**: Process the dataset, handle missing values, analyze class distributions, and prepare data for machine learning.
+- **Basic Machine Learning**: Train and evaluate standard ML models (e.g., decision trees, random forests) with hyperparameter tuning and cross-validation.
+- **Advanced Machine Learning**: Experiment with advanced NLP techniques, including neural networks, pre-trained embeddings, fine-tuning, and ensemble models. Extend the dataset by incorporating additional data and analyze its impact.
+- **Evaluation and Reporting**: Compare the performance of various models and configurations using clear visualizations and analysis.
+
+---
+
+### Installing Required Libraries:
+
+To install the necessary dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
